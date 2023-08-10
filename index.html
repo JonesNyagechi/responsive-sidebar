@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <nav class="sidebar close">
+    <header>
+        <div class="image-text">
+            <spin class="image">
+            <img src="logo.ico" alt="logo">
+            </spin>
+            <div class="text header-text">
+               <spin class="name">CodingLab</spin>
+                <spin class="profession">Web developer</spin>
+                
+            </div>
+        </div>
+
+        <i class='bx bx-chevron-right toggle'></i>
+        
+    </header>
+    <div class="menu-bar">
+        <div class="menu">
+            <li class="search-box">
+                <i class='bx bx-search alt icon ' ></i>
+                <input type="text" placeholder="search...">
+        </li>
+            <ul class="menu-links">
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-home-alt icon' ></i>
+                        <spin class="text nav-text">Dashboard</spin>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-bar-chart-alt-2 icon ' ></i>
+                        <spin class="text nav-text">Revenue</spin>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-bell icon ' ></i>
+                        <spin class="text nav-text">Notification</spin>
+                    </a>
+                </li>
+
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-pie-chart-alt icon ' ></i>
+                        <spin class="text nav-text">Analytics</spin>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-heart icon ' ></i>
+                        <spin class="text nav-text">Likes</spin>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-wallet icon ' ></i>
+                        <spin class="text nav-text">Wallets</spin>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="botton-content">
+            <li class="">
+            <a href="#">
+                <i class='bx bx-log-out icon ' ></i>
+                <spin class="text nav-text">Logout</spin>
+            </a>
+        </li>
+
+        <li class="mode">
+           <div class="moon-sun">
+            <i class='bx bx-moon icon moon ' ></i>
+            <i class='bx bx-sun icon sun ' ></i>
+           </div> 
+           <spin class="mode-text text">Dark Mode</spin>
+           <div class="toggle-switch">
+            <spin class="switch"></spin>
+           </div>
+    
+        </li>
+        </div>
+    </div>
+   </nav> 
+
+   <section class="home">
+    <div class="text">Dashboard</div>
+   </section>
+
+ <script src="script.js"></script>  
+</body>
+</html>
